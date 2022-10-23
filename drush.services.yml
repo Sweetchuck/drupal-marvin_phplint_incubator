@@ -1,0 +1,6 @@
+services:
+  marvin_incubator.phplint.commands:
+    class: 'Drush\Commands\marvin_phplint_incubator\PhpLintCommands'
+    tags:
+      -
+        name: 'drush.command'
